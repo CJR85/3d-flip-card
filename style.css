@@ -25,6 +25,13 @@ body {
   box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
 }
 
+.imgBx {
+  position: relative;
+  width: 100%;
+  height: 1000%;
+  z-index: 1;
+}
+
 .card .details {
   position: absolute;
   top: 0;
@@ -74,4 +81,8 @@ body {
   margin: 5px;
   font-size: 18px;
   transition: 0.2s;
+}
+
+.card .details .content .social-icons a:hover {
+  background: #e21212;
 }
