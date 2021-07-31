@@ -39,6 +39,7 @@ body {
   transform-style: preserve-3d;
   background: #000;
   transition: 1s;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
 }
 
 .card:hover .imgBx {
@@ -54,6 +55,10 @@ body {
   object-fit: cover;
   transform-style: preserve-3d;
   backface-visibility: hidden;
+}
+
+.card .imgBx img:nth-child(2) {
+  transform: rotateY(180deg);
 }
 
 .card .details {
